@@ -1,0 +1,35 @@
+/*
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --purple-glow: 0 0 15px rgba(139, 92, 246, 0.5);
+  --cyan-glow: 0 0 15px rgba(6, 182, 212, 0.5);
+  --glass-border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+body {
+  @apply bg-gradient-to-br from-darkBg-darker to-darkBg text-gray-200 min-h-screen font-sans;
+  background-attachment: fixed;
+}
+
+.glassmorphic {
+  @apply bg-glassWhite backdrop-blur-lg border border-glassHighlight;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.purple-glow {
+  box-shadow: var(--purple-glow);
+}
+
+.cyan-glow {
+  box-shadow: var(--cyan-glow);
+}
+
+.gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-secondary to-primary;
+}
+*/
