@@ -62,15 +62,15 @@ body {
 }
 
 .animate-typing1 {
-  animation: typing 1s infinite;
+  animation: typing 1.2s infinite;
 }
 
 .animate-typing2 {
-  animation: typing 1s infinite 0.2s;
+  animation: typing 1.2s infinite 0.4s;
 }
 
 .animate-typing3 {
-  animation: typing 1s infinite 0.4s;
+  animation: typing 1.2s infinite 0.8s;
 }
 
 @keyframes typing {
@@ -81,7 +81,7 @@ body {
   }
   50% {
     opacity: 1;
-    transform: translateY(-2px);
+    transform: translateY(-3px);
   }
 }
 

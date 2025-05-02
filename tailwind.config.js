@@ -19,14 +19,14 @@ module.exports = {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
-          dark: "#7C3AED",
-          light: "#A78BFA",
+          dark: "#3B82F6", // Blue
+          light: "#93C5FD",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
-          dark: "#0891B2",
-          light: "#67E8F9",
+          dark: "#0EA5E9", // Sky blue
+          light: "#BAE6FD",
         },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
@@ -49,9 +49,9 @@ module.exports = {
           foreground: "hsl(var(--card-foreground))",
         },
         darkBg: {
-          DEFAULT: "#111827",
-          lighter: "#1F2937",
-          darker: "#0F172A",
+          DEFAULT: "#0F172A", // Dark blue background
+          lighter: "#1E293B",
+          darker: "#0B1120",
         },
         glassWhite: "rgba(255, 255, 255, 0.05)",
         glassHighlight: "rgba(255, 255, 255, 0.1)",

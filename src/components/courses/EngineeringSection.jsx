@@ -1,6 +1,5 @@
 "use client"
 
-// src/components/courses/EngineeringSection.jsx
 import { useState } from "react"
 import GlassMorphicContainer from "../common/GlassMorphicContainer"
 import CourseCard from "./CourseCard"
@@ -14,7 +13,7 @@ const EngineeringSection = () => {
       title: "Computer Science Engineering",
       duration: "4 Years",
       degree: "B.Tech",
-      image: "/assets/images/cse.jpg",
+      image: "https://d14qv6cm1t62pm.cloudfront.net/ccbp-website/Blogs/home/after-cse-which-course-is-best-image-2.png",
       description:
         "Cutting-edge curriculum covering programming, data structures, algorithms, database systems, artificial intelligence, and more.",
       highlights: ["Industry-aligned curriculum", "Advanced Programming Labs", "AI & ML specialization"],
@@ -24,7 +23,7 @@ const EngineeringSection = () => {
       title: "Mechanical Engineering",
       duration: "4 Years",
       degree: "B.Tech",
-      image: "/assets/images/mechanical.jpg",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPZ4Uajb3_MOwiP7GGUaGJmxJDzXnKrX2pYQ&s",
       description:
         "Comprehensive program covering thermodynamics, mechanics, manufacturing processes, and computer-aided design.",
       highlights: ["CAD/CAM Labs", "Manufacturing Workshop", "Industry Projects"],
@@ -34,7 +33,7 @@ const EngineeringSection = () => {
       title: "Electrical Engineering",
       duration: "4 Years",
       degree: "B.Tech",
-      image: "/assets/images/electrical.jpg",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpppX6jgDOslLJ8m8h2P54VA5PZ8pBzt6gSw&s",
       description:
         "In-depth study of electrical systems, power generation, transmission, distribution, and electrical machines.",
       highlights: ["Power Systems Lab", "Electrical Machines Lab", "Renewable Energy Focus"],
@@ -44,7 +43,7 @@ const EngineeringSection = () => {
       title: "Civil Engineering",
       duration: "4 Years",
       degree: "B.Tech",
-      image: "/assets/images/civil.jpg",
+      image: "https://iimtu.edu.in/blog/wp-content/uploads/2023/05/CE-Featured1.jpg",
       description:
         "Study of structural engineering, transportation, environmental engineering, and construction management.",
       highlights: ["Materials Testing Lab", "Structural Analysis", "Environmental Engineering"],
@@ -54,7 +53,7 @@ const EngineeringSection = () => {
       title: "Electronics & Communication",
       duration: "4 Years",
       degree: "B.Tech",
-      image: "/assets/images/ece.jpg",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnvrFvKaAqN74G7N1NOgzrjyNBhmpdiy9y3w&s",
       description: "Focus on electronic devices, communication systems, signal processing, and embedded systems.",
       highlights: ["Advanced Electronics Lab", "Communication Systems", "VLSI Design"],
     },
@@ -64,35 +63,35 @@ const EngineeringSection = () => {
     overview: (
       <div className="space-y-6">
         <h3 className="text-xl font-semibold gradient-text">Engineering Programs at LKCTC</h3>
-        <p className="text-gray-300">
+        <p className="text-medium-contrast">
           Lyallpur Khalsa College Technical Campus offers world-class engineering education through innovative teaching
           methodologies, state-of-the-art infrastructure, and industry partnerships. Our engineering programs are
           designed to produce industry-ready professionals equipped with technical knowledge and practical skills.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="glassmorphic rounded-lg p-4">
-            <h4 className="text-lg font-medium text-secondary mb-3">Program Highlights</h4>
-            <ul className="space-y-2 text-gray-300">
+            <h4 className="text-lg font-medium text-blue-400 mb-3">Program Highlights</h4>
+            <ul className="space-y-2 text-medium-contrast">
               <li className="flex items-start">
-                <svg className="w-5 h-5 text-primary mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-5 h-5 text-blue-500 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                 </svg>
                 AICTE approved curriculum
               </li>
               <li className="flex items-start">
-                <svg className="w-5 h-5 text-primary mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-5 h-5 text-blue-500 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                 </svg>
                 Industry-aligned syllabus with regular updates
               </li>
               <li className="flex items-start">
-                <svg className="w-5 h-5 text-primary mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-5 h-5 text-blue-500 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                 </svg>
                 Hands-on practical training in modern laboratories
               </li>
               <li className="flex items-start">
-                <svg className="w-5 h-5 text-primary mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-5 h-5 text-blue-500 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                 </svg>
                 Project-based learning methodology
@@ -100,28 +99,28 @@ const EngineeringSection = () => {
             </ul>
           </div>
           <div className="glassmorphic rounded-lg p-4">
-            <h4 className="text-lg font-medium text-secondary mb-3">Career Prospects</h4>
-            <ul className="space-y-2 text-gray-300">
+            <h4 className="text-lg font-medium text-blue-400 mb-3">Career Prospects</h4>
+            <ul className="space-y-2 text-medium-contrast">
               <li className="flex items-start">
-                <svg className="w-5 h-5 text-primary mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-5 h-5 text-blue-500 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                 </svg>
                 Dedicated placement cell with industry connections
               </li>
               <li className="flex items-start">
-                <svg className="w-5 h-5 text-primary mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-5 h-5 text-blue-500 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                 </svg>
                 Regular campus recruitment drives
               </li>
               <li className="flex items-start">
-                <svg className="w-5 h-5 text-primary mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-5 h-5 text-blue-500 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                 </svg>
                 Industry internships and training programs
               </li>
               <li className="flex items-start">
-                <svg className="w-5 h-5 text-primary mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-5 h-5 text-blue-500 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                 </svg>
                 Entrepreneurship development initiatives
@@ -146,8 +145,8 @@ const EngineeringSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <GlassMorphicContainer className="p-5">
             <div className="flex flex-col items-center text-center">
-              <div className="w-16 h-16 rounded-full bg-secondary/20 flex items-center justify-center mb-4">
-                <svg className="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="w-16 h-16 rounded-full bg-blue-500/20 flex items-center justify-center mb-4">
+                <svg className="w-8 h-8 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path
                     strokeLinecap="round"
                     strokeLinejoin="round"
@@ -156,8 +155,8 @@ const EngineeringSection = () => {
                   />
                 </svg>
               </div>
-              <h4 className="text-lg font-medium text-white mb-2">Advanced Laboratories</h4>
-              <p className="text-gray-300 text-sm">
+              <h4 className="text-lg font-medium text-high-contrast mb-2">Advanced Laboratories</h4>
+              <p className="text-medium-contrast text-sm">
                 Fully equipped labs for each department with latest tools and technology for hands-on learning.
               </p>
             </div>
@@ -165,8 +164,8 @@ const EngineeringSection = () => {
 
           <GlassMorphicContainer className="p-5">
             <div className="flex flex-col items-center text-center">
-              <div className="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center mb-4">
-                <svg className="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="w-16 h-16 rounded-full bg-blue-500/20 flex items-center justify-center mb-4">
+                <svg className="w-8 h-8 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path
                     strokeLinecap="round"
                     strokeLinejoin="round"
@@ -175,8 +174,8 @@ const EngineeringSection = () => {
                   />
                 </svg>
               </div>
-              <h4 className="text-lg font-medium text-white mb-2">Digital Library</h4>
-              <p className="text-gray-300 text-sm">
+              <h4 className="text-lg font-medium text-high-contrast mb-2">Digital Library</h4>
+              <p className="text-medium-contrast text-sm">
                 Access to digital resources, e-journals, research papers, and extensive collection of books.
               </p>
             </div>
@@ -184,8 +183,8 @@ const EngineeringSection = () => {
 
           <GlassMorphicContainer className="p-5">
             <div className="flex flex-col items-center text-center">
-              <div className="w-16 h-16 rounded-full bg-secondary/20 flex items-center justify-center mb-4">
-                <svg className="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="w-16 h-16 rounded-full bg-blue-500/20 flex items-center justify-center mb-4">
+                <svg className="w-8 h-8 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path
                     strokeLinecap="round"
                     strokeLinejoin="round"
@@ -194,8 +193,8 @@ const EngineeringSection = () => {
                   />
                 </svg>
               </div>
-              <h4 className="text-lg font-medium text-white mb-2">Computer Centers</h4>
-              <p className="text-gray-300 text-sm">
+              <h4 className="text-lg font-medium text-high-contrast mb-2">Computer Centers</h4>
+              <p className="text-medium-contrast text-sm">
                 High-speed internet and modern computing facilities with latest software for technical training.
               </p>
             </div>
@@ -203,8 +202,8 @@ const EngineeringSection = () => {
 
           <GlassMorphicContainer className="p-5">
             <div className="flex flex-col items-center text-center">
-              <div className="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center mb-4">
-                <svg className="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="w-16 h-16 rounded-full bg-blue-500/20 flex items-center justify-center mb-4">
+                <svg className="w-8 h-8 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path
                     strokeLinecap="round"
                     strokeLinejoin="round"
@@ -213,8 +212,8 @@ const EngineeringSection = () => {
                   />
                 </svg>
               </div>
-              <h4 className="text-lg font-medium text-white mb-2">Training & Placement Cell</h4>
-              <p className="text-gray-300 text-sm">
+              <h4 className="text-lg font-medium text-high-contrast mb-2">Training & Placement Cell</h4>
+              <p className="text-medium-contrast text-sm">
                 Dedicated facility for career development, soft skills training, and recruitment activities.
               </p>
             </div>
@@ -222,8 +221,8 @@ const EngineeringSection = () => {
 
           <GlassMorphicContainer className="p-5">
             <div className="flex flex-col items-center text-center">
-              <div className="w-16 h-16 rounded-full bg-secondary/20 flex items-center justify-center mb-4">
-                <svg className="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="w-16 h-16 rounded-full bg-blue-500/20 flex items-center justify-center mb-4">
+                <svg className="w-8 h-8 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path
                     strokeLinecap="round"
                     strokeLinejoin="round"
@@ -232,8 +231,8 @@ const EngineeringSection = () => {
                   />
                 </svg>
               </div>
-              <h4 className="text-lg font-medium text-white mb-2">Seminar Halls</h4>
-              <p className="text-gray-300 text-sm">
+              <h4 className="text-lg font-medium text-high-contrast mb-2">Seminar Halls</h4>
+              <p className="text-medium-contrast text-sm">
                 Well-equipped auditoriums and seminar halls for workshops, conferences, and cultural events.
               </p>
             </div>
@@ -241,8 +240,8 @@ const EngineeringSection = () => {
 
           <GlassMorphicContainer className="p-5">
             <div className="flex flex-col items-center text-center">
-              <div className="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center mb-4">
-                <svg className="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="w-16 h-16 rounded-full bg-blue-500/20 flex items-center justify-center mb-4">
+                <svg className="w-8 h-8 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path
                     strokeLinecap="round"
                     strokeLinejoin="round"
@@ -251,8 +250,8 @@ const EngineeringSection = () => {
                   />
                 </svg>
               </div>
-              <h4 className="text-lg font-medium text-white mb-2">Hostel Facilities</h4>
-              <p className="text-gray-300 text-sm">
+              <h4 className="text-lg font-medium text-high-contrast mb-2">Hostel Facilities</h4>
+              <p className="text-medium-contrast text-sm">
                 Separate hostels for boys and girls with modern amenities, mess, and recreation facilities.
               </p>
             </div>
@@ -263,7 +262,7 @@ const EngineeringSection = () => {
     faculty: (
       <div className="space-y-6">
         <h3 className="text-xl font-semibold gradient-text">Distinguished Faculty</h3>
-        <p className="text-gray-300 mb-6">
+        <p className="text-medium-contrast mb-6">
           Our engineering departments are led by highly qualified faculty members with extensive academic and industry
           experience. Many faculty members hold doctoral degrees and are engaged in cutting-edge research and
           consultancy projects.
@@ -271,73 +270,73 @@ const EngineeringSection = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <GlassMorphicContainer className="p-5">
-            <h4 className="text-lg font-medium text-secondary mb-3">Department of Computer Science Engineering</h4>
+            <h4 className="text-lg font-medium text-blue-400 mb-3">Department of Computer Science Engineering</h4>
             <ul className="space-y-4">
               <li className="flex justify-between">
-                <span className="text-white">Dr. Rajinder Singh</span>
-                <span className="text-gray-400">PhD, IIT Delhi</span>
+                <span className="text-high-contrast">Dr. Rajinder Singh</span>
+                <span className="text-blue-300">PhD, IIT Delhi</span>
               </li>
               <li className="flex justify-between">
-                <span className="text-white">Prof. Manpreet Kaur</span>
-                <span className="text-gray-400">M.Tech, PEC Chandigarh</span>
+                <span className="text-high-contrast">Prof. Manpreet Kaur</span>
+                <span className="text-blue-300">M.Tech, PEC Chandigarh</span>
               </li>
               <li className="flex justify-between">
-                <span className="text-white">Dr. Amit Sharma</span>
-                <span className="text-gray-400">PhD, NITTR</span>
+                <span className="text-high-contrast">Dr. Amit Sharma</span>
+                <span className="text-blue-300">PhD, NITTR</span>
               </li>
             </ul>
           </GlassMorphicContainer>
 
           <GlassMorphicContainer className="p-5">
-            <h4 className="text-lg font-medium text-primary mb-3">Department of Mechanical Engineering</h4>
+            <h4 className="text-lg font-medium text-blue-400 mb-3">Department of Mechanical Engineering</h4>
             <ul className="space-y-4">
               <li className="flex justify-between">
-                <span className="text-white">Dr. Harpreet Singh</span>
-                <span className="text-gray-400">PhD, IIT Roorkee</span>
+                <span className="text-high-contrast">Dr. Harpreet Singh</span>
+                <span className="text-blue-300">PhD, IIT Roorkee</span>
               </li>
               <li className="flex justify-between">
-                <span className="text-white">Prof. Jagdeep Singh</span>
-                <span className="text-gray-400">M.Tech, NIT Jalandhar</span>
+                <span className="text-high-contrast">Prof. Jagdeep Singh</span>
+                <span className="text-blue-300">M.Tech, NIT Jalandhar</span>
               </li>
               <li className="flex justify-between">
-                <span className="text-white">Dr. Gurpreet Kaur</span>
-                <span className="text-gray-400">PhD, PTU</span>
+                <span className="text-high-contrast">Dr. Gurpreet Kaur</span>
+                <span className="text-blue-300">PhD, PTU</span>
               </li>
             </ul>
           </GlassMorphicContainer>
 
           <GlassMorphicContainer className="p-5">
-            <h4 className="text-lg font-medium text-secondary mb-3">Department of Electrical Engineering</h4>
+            <h4 className="text-lg font-medium text-blue-400 mb-3">Department of Electrical Engineering</h4>
             <ul className="space-y-4">
               <li className="flex justify-between">
-                <span className="text-white">Dr. Sandeep Kumar</span>
-                <span className="text-gray-400">PhD, IIT Bombay</span>
+                <span className="text-high-contrast">Dr. Sandeep Kumar</span>
+                <span className="text-blue-300">PhD, IIT Bombay</span>
               </li>
               <li className="flex justify-between">
-                <span className="text-white">Prof. Navjot Kaur</span>
-                <span className="text-gray-400">M.Tech, TIET Patiala</span>
+                <span className="text-high-contrast">Prof. Navjot Kaur</span>
+                <span className="text-blue-300">M.Tech, TIET Patiala</span>
               </li>
               <li className="flex justify-between">
-                <span className="text-white">Dr. Paramjit Singh</span>
-                <span className="text-gray-400">PhD, PTU</span>
+                <span className="text-high-contrast">Dr. Paramjit Singh</span>
+                <span className="text-blue-300">PhD, PTU</span>
               </li>
             </ul>
           </GlassMorphicContainer>
 
           <GlassMorphicContainer className="p-5">
-            <h4 className="text-lg font-medium text-primary mb-3">Department of Electronics & Communication</h4>
+            <h4 className="text-lg font-medium text-blue-400 mb-3">Department of Electronics & Communication</h4>
             <ul className="space-y-4">
               <li className="flex justify-between">
-                <span className="text-white">Dr. Ramandeep Kaur</span>
-                <span className="text-gray-400">PhD, GNDU Amritsar</span>
+                <span className="text-high-contrast">Dr. Ramandeep Kaur</span>
+                <span className="text-blue-300">PhD, GNDU Amritsar</span>
               </li>
               <li className="flex justify-between">
-                <span className="text-white">Prof. Gurjit Singh</span>
-                <span className="text-gray-400">M.Tech, NIT Jalandhar</span>
+                <span className="text-high-contrast">Prof. Gurjit Singh</span>
+                <span className="text-blue-300">M.Tech, NIT Jalandhar</span>
               </li>
               <li className="flex justify-between">
-                <span className="text-white">Dr. Amarjit Singh</span>
-                <span className="text-gray-400">PhD, DTU Delhi</span>
+                <span className="text-high-contrast">Dr. Amarjit Singh</span>
+                <span className="text-blue-300">PhD, DTU Delhi</span>
               </li>
             </ul>
           </GlassMorphicContainer>
@@ -347,24 +346,24 @@ const EngineeringSection = () => {
   }
 
   return (
-    <section className="py-16">
+    <section className="py-16" id="courses-section">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold gradient-text mb-4">Engineering Programs</h2>
-          <p className="text-gray-300 max-w-3xl mx-auto">
+          <p className="text-black max-w-3xl mx-auto">
             Our engineering programs blend theoretical knowledge with practical application, preparing students for
             successful careers in the ever-evolving technological landscape.
           </p>
         </div>
 
-        <GlassMorphicContainer className="p-0 overflow-hidden" glow="purple">
+        <GlassMorphicContainer className="p-0 rounded-xl overflow-hidden" glow="blue">
           {/* Tabs */}
           <div className="flex border-b border-glassHighlight">
             {["overview", "courses", "facilities", "faculty"].map((tab) => (
               <button
                 key={tab}
                 className={`px-6 py-4 font-medium transition-colors ${
-                  activeTab === tab ? "border-b-2 border-secondary text-white" : "text-gray-400 hover:text-gray-200"
+                  activeTab === tab ? "border-b-2 border-blue-500 text-white" : "text-gray-400 hover:text-gray-200"
                 }`}
                 onClick={() => setActiveTab(tab)}
               >

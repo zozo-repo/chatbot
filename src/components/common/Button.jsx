@@ -15,10 +15,10 @@ const Button = ({
   const baseClasses = "font-medium transition-all duration-300 flex items-center justify-center"
 
   const variants = {
-    primary: "bg-purple-600 hover:bg-purple-700 text-white",
-    secondary: "bg-cyan-600 hover:bg-cyan-700 text-white",
-    outline: "border border-gray-700/50 text-gray-100 hover:bg-gray-800/50",
-    ghost: "text-gray-100 hover:bg-gray-800/30",
+    primary: "bg-blue-500 hover:bg-blue-600 text-white",
+    secondary: "bg-sky-500 hover:bg-sky-600 text-white",
+    outline: "border border-blue-500 text-blue-400 hover:bg-blue-500/10",
+    ghost: "text-blue-400 hover:bg-blue-500/10",
   }
 
   const sizes = {
@@ -42,13 +42,13 @@ const Button = ({
   }
 
   if (gradient) {
-    styleClasses += " bg-gradient-to-r from-cyan-600 to-purple-600 hover:from-cyan-500 hover:to-purple-500"
+    styleClasses += " bg-gradient-to-r from-blue-600 to-sky-500 hover:from-blue-500 hover:to-sky-400"
   }
 
   if (glow) {
     styleClasses += " hover:shadow-lg"
-    if (variant === "primary" || gradient) styleClasses += " hover:purple-glow"
-    else if (variant === "secondary") styleClasses += " hover:cyan-glow"
+    if (variant === "primary" || gradient) styleClasses += " hover:blue-glow"
+    else if (variant === "secondary") styleClasses += " hover:blue-glow"
   }
 
   return (

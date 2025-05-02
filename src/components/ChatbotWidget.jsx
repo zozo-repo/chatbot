@@ -105,10 +105,10 @@ function ChatbotWidget() {
             {isTyping && (
               <div className="message flex justify-start">
                 <div className="max-w-3/4 rounded-2xl px-4 py-2 bg-gradient-to-br from-cyan-900/40 to-cyan-800/40 border border-cyan-700/30 shadow">
-                  <div className="flex space-x-1">
-                    <div className="w-2 h-2 rounded-full bg-cyan-400 animate-typing1"></div>
-                    <div className="w-2 h-2 rounded-full bg-cyan-400 animate-typing2"></div>
-                    <div className="w-2 h-2 rounded-full bg-cyan-400 animate-typing3"></div>
+                  <div className="flex space-x-2">
+                    <div className="w-3 h-3 rounded-full bg-cyan-400 animate-typing1"></div>
+                    <div className="w-3 h-3 rounded-full bg-cyan-400 animate-typing2"></div>
+                    <div className="w-3 h-3 rounded-full bg-cyan-400 animate-typing3"></div>
                   </div>
                 </div>
               </div>

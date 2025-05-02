@@ -1,23 +1,9 @@
-const GlassMorphicContainer = ({ children, className = "", glow = "none", borderGradient = false }) => {
-  const glowStyles = {
-    none: "",
-    purple: "purple-glow",
-    cyan: "cyan-glow",
-    dual: "purple-glow cyan-glow",
-  }
+const GlassMorphicContainer = ({ children, className = "", glow = null }) => {
+  let glowClass = ""
+  if (glow === "blue") glowClass = "blue-glow"
+  else if (glow === "purple") glowClass = "blue-glow" // Changed to blue-glow for consistency
 
-  return (
-    <div
-      className={`
-        glassmorphic rounded-xl p-4 relative overflow-hidden
-        ${glowStyles[glow]}
-        ${borderGradient ? "border-gradient" : ""}
-        ${className}
-      `}
-    >
-      {children}
-    </div>
-  )
+  return <div className={`glassmorphic ${glowClass} ${className}`}>{children}</div>
 }
 
 export default GlassMorphicContainer

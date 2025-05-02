@@ -79,7 +79,7 @@ const StatisticsSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold gradient-text mb-4">College at a Glance</h2>
-          <p className="text-gray-300 max-w-3xl mx-auto">
+          <p className="text-black max-w-3xl mx-auto">
             Lyallpur Khalsa College Technical Campus has established itself as a leading institution for technical
             education in the region with impressive achievements.
           </p>
@@ -89,7 +89,7 @@ const StatisticsSection = () => {
           {stats.map((stat) => (
             <GlassMorphicContainer
               key={stat.id}
-              className="p-6 text-center"
+              className="p-6 rounded-xl text-center"
               glow={stat.id % 2 === 0 ? "cyan" : "purple"}
             >
               <div className="flex justify-center mb-4 text-gray-300">{icons[stat.icon]}</div>
